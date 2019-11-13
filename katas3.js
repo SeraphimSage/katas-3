@@ -302,13 +302,13 @@ function kata17(){
 
   var kata17 = document.createElement("p");
 
-  let output17 = document.createTextNode(Math.max.apply(Math, sampleArray));
+  let output17 = document.createTextNode(Math.min.apply(Math, sampleArray));
 
   kata17.appendChild(output17);
 
   var currentDiv = document.getElementById("p17");
 
-  document.body.insertBefore(kata17,currentDiv);
+  document.body.insertBefore(kata17, currentDiv);
 }
 kata17();
 
@@ -316,12 +316,12 @@ function kata18(){
 
   var kata18 = document.createElement("p");
 
-  let output18 = document.createTextNode(Math.min.apply(Math, sampleArray));
+  let output18 = document.createTextNode(Math.max.apply(Math, sampleArray));
 
   kata18.appendChild(output18);
 
   var currentDiv = document.getElementById("p18");
 
-  document.body.insertBefore(kata18, currentDiv);
+  document.body.insertBefore(kata18,currentDiv);
 }
 kata18();
