@@ -353,6 +353,6 @@ function kata18() {
 	document.body.insertBefore(kata18, currentDiv);
 }
 document.write(
-	"<h3>Uses a max function to return the smallest item in the sample array.</h3> "
+	"<h3>Uses a max function to return the largest item in the sample array.</h3> "
 );
 kata18();
